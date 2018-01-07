@@ -2,12 +2,19 @@
 # Getting equipped with Unit Testing In Java 
 [![Build Status](https://travis-ci.org/jboss-outreach/junit-get-started.svg?branch=master)](https://travis-ci.org/jboss-outreach/junit-get-started)
 
-This repository is structured to help you getting started with unit testing and integration testing with `JUnit` `Java` and `Gradle`.
+This repository is structured to help you getting started with unit testing and integration testing with `JUnit` , `Java` and `Gradle`.
 
 ## What is Unit Testing?
 
-Unit testing is a testing technique using which individual modules of the program are tested to determine if there are any issues.
+Unit testing is a testing technique used by developers or software testers using which individual modules of the program are tested to determine if there are any issues.
 We are going to be using [JUnit](http://junit.org/junit5/), a unit testing framework for Java.
+
+## Why JUnit?
+
+We have preferred JUnit because:-
+ 1. It provides better features and reliability like Lamda Support,Extensions ... 
+ 2. It is opensource thus provides developers to have precise control over APIs
+ 3. The entire goal of the JUnit 5 revamp was to allow the success of JUnit to enable the use of other testing frameworks so you can      combine it with other frameworks  
 
 ## Contents
 * [Setting up the project](#set)
@@ -23,6 +30,8 @@ We are going to be using [JUnit](http://junit.org/junit5/), a unit testing frame
 * Clone the repository to your local machine by running the following commands on git:
 			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
 * If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/).
+* Make the necessary changes to the cloned repository.
+* Use `git push` to push the changes to your repository.
 
 ## <a id="run"></a>Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
@@ -52,7 +61,7 @@ We are going to be using [JUnit](http://junit.org/junit5/), a unit testing frame
 * Do not edit ApplicationTest.java! Create a **new test class** instead to avoid merge conflicts.
 * Remember to add comments in your code so that the other person can know what the test module does.
 * Class names should always be in PascalCase.
-* This repository has Travis CI integration, verify that it builds successfully before submitting the task. 
+* This repository has [Travis CI integration](https://travis-ci.org/), verify that it builds successfully before submitting the task. 
 
 # <a id="ref"></a>References
   * [How to set JAVA_HOME](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/)
