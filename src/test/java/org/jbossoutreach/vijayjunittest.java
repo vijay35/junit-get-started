@@ -4,7 +4,7 @@ import static junit.framework.TestCase.assertFalse;
 import static junit.framework.TestCase.assertNotNull;
 import static org.junit.Assert.*;
 
-public class TestAssertions {
+public class vijayjunittest {
     @Test
     public void testAssertions() {
         //test data
