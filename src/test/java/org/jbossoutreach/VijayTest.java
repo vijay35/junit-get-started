@@ -1,4 +1,5 @@
 import junit.framework.*;
+package org.jbossoutreach;
 
 public class VijayTest extends TestCase {
    protected int value1, value2;
