@@ -24,14 +24,14 @@ We have preferred JUnit because:-
 
 ## <a id="set"></a>Setting up the Project
 
-* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Make sure that it is for your Operating System!
+* Download [Java 8 JDK] from this link : http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html for your operating system.
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
-			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
-* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/).
+			"git clone https://github.com/[OUR-USERNAME]/junit-get-started.git"
+* If you need help, refer [Forking and Cloning in git] (https://help.github.com/articles/fork-a-repo/).
 * Make the necessary changes to the cloned repository.
-* Use `git push` to push the changes to your repository.
+* Use _git push_ to push the changes to your repository.
 
 ## <a id="run"></a>Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
@@ -45,16 +45,23 @@ We have preferred JUnit because:-
 2. Right-click the src/test/ directory.
 3. Click `Run 'All Tests'` or simply use the `Ctrl-Shift-F10` keyboard shortcut.
 
+#### If you can't install IDE and Java use online java compilers such as jdoodle.com/online-java-compiler. 
+
 ## <a id="cont"></a>Contribution Guidelines
-1. Add a **new** test class under src/test/java for the suite of test cases to be added.
-2. Add 5 JUnit test cases in that class, one for each:
+1. For this you need to learn junit. Link for learning : https://www.tutorialspoint.com/junit/ and you can refer other sites for learning in detail about Junit.
+2. Add a **new** test class under src/test/java for the suite of test cases to be added.
+3. First learn the basics and you can add 5 JUnit test cases in that class, one for each:
 		-assertTrue
 		-assertFalse
 		-assertEquals
 		-and any other two variety.
-3. Do verify that the tests successfully builds.
-4. Create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
-5. Write a very conscise but informative pull request message,explaining the test cases in your pull request! Remember to use your words wisely. 
+4. Verify that the test successfully builds. 
+5. Then create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
+6. Write a informative pull request explaining about the junit tests you created.
+7. After creating a pull request, verify that the codacy and travis checks passes. If it shows error there is some error in your project.
+8. Don't forget to save the file in ".java" format
+9. Happy coding.
+
 
 ## Points to keep in mind while contributing
 * There is not much content in main code (src/main/). *Add your test code to (src/test/) only.* 
