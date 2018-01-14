@@ -48,6 +48,7 @@ We have preferred JUnit because:-
 #### If you can't install IDE and Java use online java compilers such as jdoodle.com/online-java-compiler. 
 
 ## <a id="cont"></a>Contribution Guidelines
+1. For this you need to learn junit. Link for learning : https://www.tutorialspoint.com/junit/
 1. Add a **new** test class under src/test/java for the suite of test cases to be added.
 2. Add 5 JUnit test cases in that class, one for each:
 		-assertTrue
@@ -58,6 +59,7 @@ We have preferred JUnit because:-
 4. Then create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
 5. Write a informative pull request explaining about the junit tests you created.
 6. After creating a pull request, verify that the codacy and travis checks passes. If it shows error there is some error in your project.
+7. Happy coding.
 
 
 ## Points to keep in mind while contributing
