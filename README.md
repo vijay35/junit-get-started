@@ -24,7 +24,7 @@ We have preferred JUnit because:-
 
 ## <a id="set"></a>Setting up the Project
 
-* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Make sure that it is for your Operating System!
+* Download [Java 8 JDK] from this link : http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html for your operating system.
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
@@ -45,6 +45,8 @@ We have preferred JUnit because:-
 2. Right-click the src/test/ directory.
 3. Click `Run 'All Tests'` or simply use the `Ctrl-Shift-F10` keyboard shortcut.
 
+#### If you can't install IDE and Java use online java compilers such as jdoodle.com/online-java-compiler. 
+
 ## <a id="cont"></a>Contribution Guidelines
 1. Add a **new** test class under src/test/java for the suite of test cases to be added.
 2. Add 5 JUnit test cases in that class, one for each:
@@ -52,9 +54,11 @@ We have preferred JUnit because:-
 		-assertFalse
 		-assertEquals
 		-and any other two variety.
-3. Do verify that the tests successfully builds.
-4. Create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
-5. Write a very conscise but informative pull request message,explaining the test cases in your pull request! Remember to use your words wisely. 
+3. Verify that the test successfully builds. 
+4. Then create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
+5. Write a informative pull request explaining about the junit tests you created.
+6. After creating a pull request, verify that the codacy and travis checks passes. If it shows error there is some error in your project.
+
 
 ## Points to keep in mind while contributing
 * There is not much content in main code (src/main/). *Add your test code to (src/test/) only.* 
