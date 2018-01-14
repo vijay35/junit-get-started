@@ -28,7 +28,7 @@ We have preferred JUnit because:-
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
-			"git clone https://github.com/[OUR-USERNAME]/junit-get-started.git"
+			"git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git"
 * If you need help, refer [Forking and Cloning in git] (https://help.github.com/articles/fork-a-repo/).
 * Make the necessary changes to the cloned repository.
 * Use _git push_ to push the changes to your repository.
