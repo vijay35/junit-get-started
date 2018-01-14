@@ -28,10 +28,10 @@ We have preferred JUnit because:-
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* icon at the top right corner of this page.
 * Clone the repository to your local machine by running the following commands on git:
-			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
-* If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/).
+			"git clone https://github.com/[OUR-USERNAME]/junit-get-started.git"
+* If you need help, refer [Forking and Cloning in git] (https://help.github.com/articles/fork-a-repo/).
 * Make the necessary changes to the cloned repository.
-* Use `git push` to push the changes to your repository.
+* Use _git push_ to push the changes to your repository.
 
 ## <a id="run"></a>Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
@@ -59,6 +59,7 @@ We have preferred JUnit because:-
 4. Then create a [pull request](https://help.github.com/articles/about-pull-requests/) requesting to merge the commits on your fork to this repository.
 5. Write a informative pull request explaining about the junit tests you created.
 6. After creating a pull request, verify that the codacy and travis checks passes. If it shows error there is some error in your project.
+7. Don't forget to save the file in _.java_ format
 7. Happy coding.
 
 
